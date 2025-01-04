@@ -1,0 +1,227 @@
+[
+    {
+      "title": "Understanding React Components",
+      "content": "React components are the building blocks of any React application.",
+      "category": "Web Development",
+      "author": "John Doe",
+      "image": "https://example.com/images/react_components.jpg",
+      "createdAt": "2025-01-01T10:00:00Z",
+      "updatedAt": "2025-01-01T10:00:00Z"
+    },
+    {
+      "title": "Getting Started with Node.js",
+      "content": "Node.js is a JavaScript runtime built on Chrome's V8 engine.",
+      "category": "Backend Development",
+      "author": "Jane Smith",
+      "image": "https://example.com/images/nodejs_intro.jpg",
+      "createdAt": "2025-01-02T14:30:00Z",
+      "updatedAt": "2025-01-02T14:30:00Z"
+    },
+    {
+      "title": "Mastering CSS Flexbox",
+      "content": "CSS Flexbox simplifies layout alignment and design.",
+      "category": "Frontend Design",
+      "author": "Emily Davis",
+      "image": "https://example.com/images/css_flexbox.jpg",
+      "createdAt": "2025-01-03T09:45:00Z",
+      "updatedAt": "2025-01-03T09:45:00Z"
+    },
+    {
+      "title": "The Power of JavaScript ES6",
+      "content": "ES6 introduces features like arrow functions and destructuring.",
+      "category": "Programming",
+      "author": "Michael Lee",
+      "image": "https://example.com/images/js_es6.jpg",
+      "createdAt": "2025-01-04T11:15:00Z",
+      "updatedAt": "2025-01-04T11:15:00Z"
+    },
+    {
+      "title": "Diving into Python",
+      "content": "Python is a versatile programming language used in various domains.",
+      "category": "Programming",
+      "author": "Sarah Johnson",
+      "image": "https://example.com/images/python_basics.jpg",
+      "createdAt": "2025-01-05T08:20:00Z",
+      "updatedAt": "2025-01-05T08:20:00Z"
+    },
+    {
+      "title": "What is REST API?",
+      "content": "REST API is a set of rules for building scalable web services.",
+      "category": "API Design",
+      "author": "Tom Brown",
+      "image": "https://example.com/images/rest_api.jpg",
+      "createdAt": "2025-01-06T16:00:00Z",
+      "updatedAt": "2025-01-06T16:00:00Z"
+    },
+    {
+      "title": "Exploring TypeScript",
+      "content": "TypeScript brings type safety to JavaScript development.",
+      "category": "Web Development",
+      "author": "Laura Wilson",
+      "image": "https://example.com/images/typescript_intro.jpg",
+      "createdAt": "2025-01-07T10:30:00Z",
+      "updatedAt": "2025-01-07T10:30:00Z"
+    },
+    {
+      "title": "MongoDB Essentials",
+      "content": "MongoDB is a popular NoSQL database known for its flexibility.",
+      "category": "Database",
+      "author": "Chris Martin",
+      "image": "https://example.com/images/mongodb.jpg",
+      "createdAt": "2025-01-08T15:45:00Z",
+      "updatedAt": "2025-01-08T15:45:00Z"
+    },
+    {
+      "title": "Deploying with Docker",
+      "content": "Docker helps streamline deployment with containerization.",
+      "category": "DevOps",
+      "author": "Anna Taylor",
+      "image": "https://example.com/images/docker_deployment.jpg",
+      "createdAt": "2025-01-09T13:50:00Z",
+      "updatedAt": "2025-01-09T13:50:00Z"
+    },
+    {
+      "title": "Introduction to GraphQL",
+      "content": "GraphQL is a query language for your API.",
+      "category": "API Design",
+      "author": "Nathan Walker",
+      "image": "https://example.com/images/graphql_intro.jpg",
+      "createdAt": "2025-01-10T11:10:00Z",
+      "updatedAt": "2025-01-10T11:10:00Z"
+    },
+    {
+      "title": "Redux for State Management",
+      "content": "Redux is a predictable state container for JavaScript apps.",
+      "category": "Web Development",
+      "author": "Sophia Anderson",
+      "image": "https://example.com/images/redux_basics.jpg",
+      "createdAt": "2025-01-11T09:40:00Z",
+      "updatedAt": "2025-01-11T09:40:00Z"
+    },
+    {
+      "title": "Building RESTful APIs",
+      "content": "Learn how to build RESTful APIs with Express.js.",
+      "category": "Backend Development",
+      "author": "David Allen",
+      "image": "https://example.com/images/restful_api.jpg",
+      "createdAt": "2025-01-12T08:55:00Z",
+      "updatedAt": "2025-01-12T08:55:00Z"
+    },
+    {
+      "title": "An Overview of AWS Services",
+      "content": "AWS offers a range of cloud computing solutions.",
+      "category": "Cloud Computing",
+      "author": "Olivia Clark",
+      "image": "https://example.com/images/aws_services.jpg",
+      "createdAt": "2025-01-13T12:15:00Z",
+      "updatedAt": "2025-01-13T12:15:00Z"
+    },
+    {
+      "title": "Vue.js Basics",
+      "content": "Vue.js is a progressive framework for building user interfaces.",
+      "category": "Frontend Development",
+      "author": "Liam Scott",
+      "image": "https://example.com/images/vuejs_intro.jpg",
+      "createdAt": "2025-01-14T10:50:00Z",
+      "updatedAt": "2025-01-14T10:50:00Z"
+    },
+    {
+      "title": "Data Structures in JavaScript",
+      "content": "Understanding data structures is crucial for programming.",
+      "category": "Programming",
+      "author": "Sophia Martinez",
+      "image": "https://example.com/images/js_data_structures.jpg",
+      "createdAt": "2025-01-15T14:05:00Z",
+      "updatedAt": "2025-01-15T14:05:00Z"
+    },
+    {
+      "title": "React Router Guide",
+      "content": "React Router enables navigation in React applications.",
+      "category": "Web Development",
+      "author": "William Carter",
+      "image": "https://example.com/images/react_router.jpg",
+      "createdAt": "2025-01-16T13:30:00Z",
+      "updatedAt": "2025-01-16T13:30:00Z"
+    },
+    {
+      "title": "Secure Your Web App",
+      "content": "Learn how to secure your web applications from vulnerabilities.",
+      "category": "Cybersecurity",
+      "author": "Emma Turner",
+      "image": "https://example.com/images/web_security.jpg",
+      "createdAt": "2025-01-17T10:00:00Z",
+      "updatedAt": "2025-01-17T10:00:00Z"
+    },
+    {
+      "title": "Testing with Jest",
+      "content": "Jest is a delightful JavaScript testing framework.",
+      "category": "Testing",
+      "author": "James White",
+      "image": "https://example.com/images/jest_testing.jpg",
+      "createdAt": "2025-01-18T11:20:00Z",
+      "updatedAt": "2025-01-18T11:20:00Z"
+    },
+    {
+      "title": "Modern CSS Techniques",
+      "content": "Explore modern CSS techniques for better web design.",
+      "category": "Frontend Design",
+      "author": "Ava King",
+      "image": "https://example.com/images/css_modern.jpg",
+      "createdAt": "2025-01-19T09:10:00Z",
+      "updatedAt": "2025-01-19T09:10:00Z"
+    },
+    {
+      "title": "AI and Machine Learning Basics",
+      "content": "AI and ML are transforming industries worldwide.",
+      "category": "Artificial Intelligence",
+      "author": "Logan Hill",
+      "image": "https://example.com/images/ai_ml_basics.jpg",
+      "createdAt": "2025-01-20T14:50:00Z",
+      "updatedAt": "2025-01-20T14:50:00Z"
+    },
+    {
+      "title": "Introduction to Kubernetes",
+      "content": "Kubernetes helps automate deployment and management of applications.",
+      "category": "DevOps",
+      "author": "Mia Wright",
+      "image": "https://example.com/images/kubernetes_intro.jpg",
+      "createdAt": "2025-01-21T15:30:00Z",
+      "updatedAt": "2025-01-21T15:30:00Z"
+    },
+    {
+      "title": "Async/Await in JavaScript",
+      "content": "Simplify asynchronous programming with async/await.",
+      "category": "Programming",
+      "author": "Alexander Harris",
+      "image": "https://example.com/images/async_await.jpg",
+      "createdAt": "2025-01-22T12:45:00Z",
+      "updatedAt": "2025-01-22T12:45:00Z"
+    },
+    {
+      "title": "Agile Methodologies",
+      "content": "Agile is a set of principles for software development.",
+      "category": "Project Management",
+      "author": "Charlotte Adams",
+      "image": "https://example.com/images/agile_methodologies.jpg",
+      "createdAt": "2025-01-23T10:40:00Z",
+      "updatedAt": "2025-01-23T10:40:00Z"
+    },
+    {
+      "title": "Building PWA with React",
+      "content": "Learn how to build Progressive Web Apps using React.",
+      "category": "Web Development",
+      "author": "Benjamin Lewis",
+      "image": "https://example.com/images/react_pwa.jpg",
+      "createdAt": "2025-01-24T09:30:00Z",
+      "updatedAt": "2025-01-24T09:30:00Z"
+    },
+    {
+      "title": "Database Indexing Explained",
+      "content": "Indexing improves database query performance.",
+      "category": "Database",
+      "author": "Isabella Walker",
+      "image": "https://example.com/images/database_indexing.jpg",
+      "createdAt": "2025-01-25T11:55:00Z",
+      "updatedAt": "2025-01-25T11:55:00Z"
+    }
+  ]
