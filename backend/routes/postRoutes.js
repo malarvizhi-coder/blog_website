@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-
+const categoryModel = require('../models/categoryModel');
 const Postmodel = require('../models/postModel');
 
 //Get all posts ---- GET
@@ -81,5 +81,22 @@ router.delete('/:id', async(req,res)=>{
         res.status(500).json({message: error.message});
     }
 })
+
+//Fetch post bt Category ID
+router.get('/category/:categoryId', async(req,res)=>{
+    try {
+        const categoryId = req.params.categoryId;
+        const categoryExists = await categoryModel.findById(categoryId);
+        if(!categoryExists){
+            return res.status(404).json({message:"Category not found"})
+        }
+        const posts = await Postmodel.find({category: categoryId}).populate('category');
+        res.status(200).json(posts);
+        
+    } catch (error) {
+        res.status(500).json({message: error.message});
+    }
+})
+
 
 module.exports = router;

@@ -16,11 +16,11 @@ router.get('/', async(req,res) => {
 //Get single category by ID  ----GET
 router.get('/:id', async(req,res) => {
     try {
-        const category = await Category.findById();
+        const category = await Category.findById(req.params.id);
         if(!category){
             res.status(400).json({message: "Category not found"});
         }
-        res.send(categories);
+        res.send(category);
     } 
     catch (error) {
         res.status(500).json({message: error.message})

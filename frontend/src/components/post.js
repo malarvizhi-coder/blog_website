@@ -10,7 +10,7 @@ export default function Post({post}) {
                 </div>
                 <div className="card-body col-md-8">
                     <h5 className="card-title">{post.title}</h5>
-                    <p className="card-text">{post.content.substr(0,12)}...</p>
+                    <p className="card-text">{post.content.substr(0,120)}...</p>
                     <a href={`/posts/${post._id}`} className="btn btn-primary">Read More</a>
                     {/* <Link to={`/posts/${post._id}`} className="btn btn-primary">Read More</Link> */}
                 </div>
